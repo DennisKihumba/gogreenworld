@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Let's Go Green WORLD</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #e8f5e9;
+      color: #2e7d32;
+    }
+    header {
+      background: #1b5e20;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #a5d6a7;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+    }
+    input, textarea {
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+    }
+    button {
+      background: #43a047;
+      color: #fff;
+      border: none;
+      padding: 0.75rem;
+      cursor: pointer;
+    }
+    footer {
+      background: #1b5e20;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .story {
+      background: #c8e6c9;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Let's Go Green WORLD</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#submit">Submit Action</a>
+      <a href="#stories">Stories</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h2>Welcome to Let's Go Green WORLD</h2>
+      <p>Our mission is to inspire and share actions that help combat climate change. Join us in making the world greener — one action at a time!</p>
+    </section>
+    <section id="submit">
+      <h2>Submit Your Climate Action</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <textarea placeholder="Describe your action..." rows="5" required></textarea>
+        <input type="file" accept="image/*" />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <section id="stories">
+      <h2>Our Green Stories</h2>
+      <div class="story">
+        <h3>Jane Doe</h3>
+        <p>Planted 50 trees in her neighborhood to help restore the local ecosystem.</p>
+      </div>
+      <div class="story">
+        <h3>Ali Mwangi</h3>
+        <p>Started a recycling program in his school to reduce plastic waste.</p>
+      </div>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Let's Go Green WORLD is a community-driven platform for sharing real actions that fight climate change. Contact us at <a href="mailto:info@letsogreenworld.org">info@letsgogreenworld.org</a></p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Let's Go Green WORLD | Together for a greener future 🌿
+  </footer>
+</body>
+</html>
